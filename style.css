@@ -9,17 +9,29 @@ table {
     text-align: center;
   }
 
-  .new-book {
+  .new-book,
+  .clear,
+  .display {
     padding: 10px;
     background-color: yellow;
     border: 2px solid green;
     border-radius: 10px;
   }
 
-  table tbody tr:hover {
-    background-color: lightgray;
+  .new-book:hover,
+  .clear:hover,
+  .display:hover {
+    padding: 9px;
+    box-shadow: inset -2px -2px black;
   }
 
-  table tbody tr:active {
-    background-color: red;
+  .new-book:active,
+  .clear:active,
+  .display:active {
+    padding: 10px;
+    box-shadow: 2px 2px 2px black;
+  }
+
+  table tbody tr:hover {
+    background-color: lightgray;
   }
